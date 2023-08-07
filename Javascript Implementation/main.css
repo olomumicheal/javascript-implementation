@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --grey:rgb(119, 115, 115);
+}
+
+/* LANDING PAGE STARTS */
+.landing-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    color:white;
+
+    background-image:url(./images/hero-bg.jpg);
+    background-repeat:no-repeat;
+    width:100%;
+    background-position: top;
+    background-attachment:fixed;
+
+    height:90vh;
+}
+
+.landing-icon{
+    color:white;
+    padding-top:20px;
+}
+.landing-icon:hover{
+    color:var(--grey);
+    padding-top:20px;
+}
+
+/* LANDING PAGE ENDS */
+
+/* NAV BAR STARTS */
+.nav-bar{
+    background-color: #e4ebf3;
+}
+
+.bar-button{
+    color:black;
+    font-family:Comic Sans MS;
+} 
+
+.bar-button:hover{
+    color:var(--grey);
+}
+
+/* NAV BAR ENDS */
+
+
+/* ABOUT ME STARTS */
+.about-me{
+    background-color: white;
+}
+
+.aboutme img{
+    width:35%;
+    margin-right:35px;
+}
+.about-years{
+    font-family:Comic Sans MS;
+    color:rgb(62, 76, 96)
+}
+
+.about-p{
+    font-family:Verdana;
+    color:rgb(62, 76, 96)
+}
+/* ABOUT ME ENDS */
+
+
+/* Skills  section start */
+/* .progress {
+    height: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+  
+  .progress-bar {
+    height: 100%;
+    background-color:green;
+    transition: width 0.5s ease-in-out;
+  } */
+.skill{
+    background-color: rgb(250, 248, 248);
+}
+
+
+
+
+/* RESUME STARTS */
+
+.resume{
+    background-color: rgba(37, 36, 36, 0.234);
+}
+
+.resume h5{
+    font-size: 16px;
+    background: #e4ebf3;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif
+}
+ /* RESUME ENDS */
+
+ /* IMAGE SECTION ENDS */
+.my-images img{
+    width:400px;
+    padding: 20px;
+}
+
+.my-images img:hover{
+    width:450px;
+}
+/* IMAGE SECTION ENDS */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}

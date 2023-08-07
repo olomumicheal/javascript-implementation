@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Playfair:ital,wght@0,300;1,300;1,500&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav .navbar-brand{
+    color: rgb(203, 189, 189);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+nav .navbar-brand:hover{
+    color: rgb(194, 194, 51);
+}
+
+nav .nav-link{
+    color: rgb(189, 110, 110);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+nav .nav-link:hover{
+    color: blue;
+}
+
+.header{
+    background-image: url(/images/IMG-20230516-WA0014.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Home Section */
+.home{
+    padding-top: 100px;
+}
+
+.text{
+    color: white;
+    font-weight: 900;
+}
+
+.text .btn{
+    padding: 8px 20px;
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+    border-radius: 0%;
+}
+
+.text .pb{
+    padding-top: 50px;
+}
+
+.text .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.text .icons{
+    padding-top: 100px;
+}
+
+
